@@ -1,0 +1,53 @@
+.App {
+  border: solid blue;
+
+  text-align: center;
+  background-color: aqua;
+  display: grid;
+  grid-auto-columns: 100px 2fr 2fr 75px;
+  grid-auto-rows: 75px 2fr 75px;
+
+  grid-template-areas:
+ "h h h h"
+ "n c c c "
+ "f f f f";
+
+  gap: 10px;
+}
+
+
+.navbar{
+  grid-area: n ;
+  background-color: aliceblue;
+
+}
+
+.content{
+  grid-area: c ;
+
+}
+.inputs{
+  background-color: cornsilk;
+
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  grid-auto-columns: 1fr 1fr;
+}
+
+input{
+  margin: 15px;
+}
+
+.footer{
+  grid-area: f ;
+  background-color: darkorange;
+
+
+}
+
+
+
+

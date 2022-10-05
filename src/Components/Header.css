@@ -1,0 +1,30 @@
+.header{
+    grid-area: h ;
+    background-color: #265D6F;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.loginPanel{
+    display: flex;
+}
+.logo{
+    display: flex;
+    text-align: left;
+    height: 100px;
+}
+
+.logo_img{
+    display: block;
+    height: 50px;
+    padding: 15px;
+}
+.login{
+    color: #EBC59F;
+    height: 100px;
+    margin: 25px;
+}
+.sign{
+    color: #EBC59F;
+    height: 100px;
+    margin: 25px;
+}
